@@ -16,19 +16,17 @@ main {
 
 .topo {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 
 .topo p {
-    width: 500px;
-
+    width: 600px;
     color: #FFF;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     margin-top: 40px;
     padding: 10px;
@@ -53,10 +51,10 @@ main {
 }
 
 .topo img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
     mix-blend-mode: luminosity;
     margin-top: -100px;
+    opacity: 0.4;
 
 }
 
@@ -67,35 +65,56 @@ main {
 }
 
 .imagem-botoes button {
-    width: 224px;
+    width: 190px;
     height: 42px;
     border-radius: 50px;
-    background: linear-gradient(180deg, #08AEEA 0%, #2AF598 100%);
+    background: linear-gradient(180deg, #08ea79 0%, #2AF598 100%);
     border: none;
     cursor: pointer;
     z-index: 1;
+    font-weight: 700;
+    font-size: larger;
 }
-
-.imagem-botoes button.git {
-    margin-top: -100px;
+button.linkedin {
     margin-bottom: 10px;
-
 }
+button.git {
+    margin-bottom: 10px;
+}
+
+section.Habilidades {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
+
+
 .projetos {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .fundoimg {
     width: 250px;
+    opacity: 0.6;
+    
 }
+
+img.fundoimg:hover {
+    opacity: 1;
+    transition: 500ms linear;
+}
+
 .grupo-cards {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .titulos {

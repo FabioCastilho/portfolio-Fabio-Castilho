@@ -16,6 +16,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 5% 10% 0% 10%;
+    flex-wrap: wrap;
 
 }
 
@@ -185,4 +186,39 @@ button.tag {
     width: 250px;
     color: aliceblue;
     text-align: center;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .topo {
+        flex-wrap: wrap;
+    }
+    
+    .topo p {
+        width: 25rem;
+    }
+
+    .topo h3 {
+        font-size: 20px;
+    }
+
+    .nome-cargo h3 {
+        white-space: wrap;
+    }
+
+    .grupo-cards {
+        justify-content: center;
+        
+    }
+
+    img.fotop {
+        visibility: hidden;
+    }
+
+    .imagem-botoes{
+        margin-top: 50px;
+        fle
+    }
 }

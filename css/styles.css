@@ -10,7 +10,21 @@ body{
     background: #181b25;
 }
 
+img#grafismo01 {
+    width: 87px;
+    position: absolute;
+    margin-top: -33px;
+    margin-left: -932px;
+    opacity: .07;
+}
 
+img#grafismo02 {
+    width: 87px;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 346px;
+    opacity: .07;
+}
 .topo {
     display: flex;
     justify-content: space-evenly;

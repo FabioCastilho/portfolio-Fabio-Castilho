@@ -35,7 +35,7 @@ img#grafismo02 {
 }
 
 .topo p {
-    width: 44rem;
+
     color: #FFF;
     font-family: Poppins;
     font-size: 18px;
@@ -104,6 +104,9 @@ button.git {
     background: linear-gradient(180deg, #04a755 0%, #1a965e 100%);
 }
 
+.nome-cargo {
+    width: 50rem;
+}
 
 /*efeito no texto*/
 .nome-cargo h3 {
@@ -178,7 +181,7 @@ img.fundoimg:hover {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .titulos {
@@ -204,7 +207,19 @@ button.tag {
 
 
 
+@media screen and (max-width: 1037px) {
+    .imagem-botoes {
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px; 
+    }
 
+    img.fotop {
+        visibility: hidden;
+    }
+
+}
 @media screen and (max-width:768px) {
     
     .imagem-botoes button {
@@ -225,13 +240,14 @@ button.tag {
         font-size: 45pt;
     }
     .topo p {
-        width: 25rem;
+        
         font-size: unset;
     }
 
     .topo h3 {
         font-size: 20px;
     }
+
 
     .nome-cargo h3 {
         font-size: 7pt;

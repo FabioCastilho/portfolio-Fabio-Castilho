@@ -206,12 +206,27 @@ button.tag {
 
 
 @media screen and (max-width:768px) {
+    
+    .imagem-botoes button {
+        width: 96px;
+        font-size: smaller;
+
+
+    }
+
+
+
+
+    
     .topo {
         flex-wrap: wrap;
     }
-    
+    .topo h1 {
+        font-size: 45pt;
+    }
     .topo p {
         width: 25rem;
+        font-size: unset;
     }
 
     .topo h3 {
@@ -219,7 +234,7 @@ button.tag {
     }
 
     .nome-cargo h3 {
-        white-space: wrap;
+        font-size: 7pt;
     }
 
     .grupo-cards {
@@ -233,6 +248,9 @@ button.tag {
 
     .imagem-botoes{
         margin-top: 50px;
+        flex-direction: row;
+        align-items: flex-start;
+        gap:10px;
         
     }
 }

@@ -105,7 +105,14 @@ body{
     background: linear-gradient(180deg, #04a755 0%, #1a965e 100%);
 }
 
-
+.btn_projetos button {
+    padding: 1rem;
+    border: none;
+    color:#181b25;
+    background-color: #08ea79;
+    border-radius: 10px;
+    font-weight: bold;
+}
 
 /*efeito no texto*/
 .nome-cargo h3 {
@@ -253,10 +260,77 @@ button.tag {
     justify-content: center;
   }
 
+  .btn_projetos {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+ 
+}
 
+.btn_projetos button{
+    cursor: pointer;
+}
+
+.btn_projetos button:hover{
+    background-color: #04a755;
+}
+
+textarea {
+    width: 40rem;
+    background-color: #1f2330;
+    border-radius: 10px;
+
+}
+input[type="text"] {
+    width: 40rem;
+    height: 2rem;
+    background-color: #1f2330;
+    border-radius: 10px;
+    border-style: none;
+
+}
+.formulario{
+    display: flex;
+}
+
+.formulario input[type="submit"] {
+    width: 10rem;
+    height: 2rem;
+    background-color: #04a755;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    margin-left: 15rem;
+
+}
 
 @media screen and (max-width:768px) {
+
+    textarea {
+        width: 20rem;
+        
     
+    }
+    input[type="text"] {
+        width: 20rem;   
+    
+    }
+    .formulario input[type="submit"] {
+    margin-left: 5rem;
+    }
+
+    .btn_projetos {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn_projetos button {
+        width: 6rem;
+        height: 4rem;
+        
+ 
+    }
 
 
     .nome-cargo h3 {
@@ -293,7 +367,16 @@ button.tag {
 
     .grupo-cards {
         justify-content: center;
+        width: 300px;
         
+    }
+
+    .card {
+        width: 300px;
+    }
+    
+    .fundoimg  {
+        width: 300px;
     }
 /*efeito no texto*/
     @keyframes typing {

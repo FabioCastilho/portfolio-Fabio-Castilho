@@ -212,7 +212,7 @@ button.tag {
     margin-top: 10px;
     width: 60px;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     text-align: center;
 
@@ -220,10 +220,9 @@ button.tag {
 
 .card {
     width: 250px;
-    height: 300px;
+    min-height: 300px;
     color: aliceblue;
     background-color: #1f2330;
-    text-align: center;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -231,6 +230,8 @@ button.tag {
     justify-content: space-evenly;
     align-content: space-between;
     padding-bottom: 1rem;
+    text-align: left;
+    padding: 0.5rem;
 }
 
 .card:hover {
@@ -305,6 +306,9 @@ input[type="text"] {
 }
 
 @media screen and (max-width:768px) {
+    a.read-more {
+        min-width: 17.4rem;
+    }
 
     textarea {
         width: 20rem;
@@ -391,4 +395,24 @@ input[type="text"] {
     }
 /*efeito no texto*/
 
+}
+
+.card h2 {
+    font-size: 1.2rem;
+}
+a.read-more {
+    white-space: nowrap;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    min-width: 13rem;
+    gap: 1rem;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.lang {
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 1rem;
 }

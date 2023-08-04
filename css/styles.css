@@ -188,7 +188,8 @@ h1.habilidades_centro{
 .fundoimg {
     width: 250px;
     opacity: 0.6;
-    
+   
+    border-radius: 10px 10px 0 0;
 }
 
 img.fundoimg:hover {
@@ -231,7 +232,6 @@ button.tag {
     align-content: space-between;
     padding-bottom: 1rem;
     text-align: left;
-    padding: 0.5rem;
 }
 
 .card:hover {
@@ -401,11 +401,9 @@ input[type="text"] {
     font-size: 1.2rem;
 }
 a.read-more {
-    white-space: nowrap;
     text-decoration: none;
     display: flex;
     align-items: center;
-    min-width: 13rem;
     gap: 1rem;
     font-weight: 500;
     color: aliceblue;
